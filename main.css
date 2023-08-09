@@ -419,14 +419,10 @@ span {
     border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
 }
-.main-offer div img {
-    height: 10%;
-    width: 10%;
-    z-index: 10;
-    top: 100%;
-    position: absolute;
+#offer-details {
+    height: 100%;
+    width: 100%;
 }
-
 #offer-details b:nth-of-type(1) {
     font-size: 110%;
 }
