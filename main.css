@@ -274,15 +274,16 @@ span {
 }
 #shopper #shop-now div:nth-of-type(1) {
     left: 0;
-    background-color: var(--background-clr-alt);
     z-index: 5;
     width: 50%;
 }
 #shopper #shop-now div:nth-of-type(2) {
     right: 0;
     background-color: var(--background-clr-alt);
-    transform: skewX(50deg) translateX(30px) translateY(0px);
+    transform: skewX(50deg) translateX(30px) translateY(-20px);
     width: 500%;
+    height: 125%;
+    border: 15px solid rgba(0, 0, 0, 0.503);
 }
 #shopper #shop-now div .content-wrapper {
     position: absolute;
